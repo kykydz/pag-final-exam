@@ -13,7 +13,7 @@ public class DatabaseApps extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(FileApps.class.getResource("database.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 438, 339);
+        Scene scene = new Scene(fxmlLoader.load(), 672, 384);
         stage.setTitle("UAS Rizky Heri Saputra 232053001");
         stage.setScene(scene);
         stage.show();
